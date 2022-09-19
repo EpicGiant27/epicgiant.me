@@ -1,1 +1,3 @@
-# EpicGiant27.github.io
+# epicgiant.me
+
+my bad wesbsite

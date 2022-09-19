@@ -1,0 +1,31 @@
+body {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    border-style: solid;
+    padding: 10px
+}
+
+.title {
+    border-style: solid;
+    text-align: center;
+}
+
+.screen {
+    border-style: solid;
+    padding: 50px;
+}
+
+h1 {
+    font-size: xx-large
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+input {
+    color: rgb(44, 42, 42);
+}

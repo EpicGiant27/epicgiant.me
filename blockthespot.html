@@ -2,6 +2,60 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="description" content="epicgiant.me; games, tools and other wack stuff">
+        <title>EpicGiant</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="logo.ico">
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: fit-content;
+                background-color: #f1f1f1;
+                }
+
+                li a {
+                display: block;
+                color: #000;
+                padding: 1px 16px;
+                text-decoration: none;
+                text-align: center;
+                display: inline;
+                }
+
+                /* Change the link color on hover */
+                li a:hover {
+                background-color: #555;
+                color: white;
+                }
+            
+            li {
+                display: inline;
+            }
+            </style>
     </head>
-    <body>[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex "& { $((iwr -useb 'https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1').Content) } -confirm_uninstall_ms_spoti -confirm_spoti_recomended_over -podcasts_on -cache_off -block_update_off -exp_standart -hide_col_icon_off -start_spoti"</body>
+    <body>
+    <div class="screen">  
+        <header>
+            <div class="title"><h1>epicgiant.me</h1></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html">Games </a></li>
+                <li><a href="tools.html">Tools</a></li>
+            </ul>
+        </header>
+    <body>
+        <h1>Block the Spot</h1>
+        Copy this code and paste it into Powershell:
+        <br>
+        <br>
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; iex "& { $((iwr -useb 'https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1').Content) } -confirm_uninstall_ms_spoti -confirm_spoti_recomended_over -podcasts_on -cache_off -block_update_off -exp_standart -hide_col_icon_off -start_spoti"
+        <h2>Block the Spot Links</h2>
+        <ul>
+            <li><a href="https://github.com/mrpond/BlockTheSpot" target="_blank">Github</a></li>
+            <li><a href="https://github.com/mrpond/BlockTheSpot/releases" target="_blank"></a>Releases</li>
+        </ul>
+    </body>
+    </div>
 </html>

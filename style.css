@@ -28,3 +28,30 @@ h3 {
 input {
     color: rgb(44, 42, 42);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    background-color: #f1f1f1;
+    }
+
+li a {
+display: block;
+color: #000;
+padding: 1px 16px;
+text-decoration: none;
+text-align: center;
+display: inline;
+}
+
+/* Change the link color on hover */
+li a:hover {
+background-color: #555;
+color: white;
+}
+
+li {
+    display: inline;
+}
